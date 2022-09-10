@@ -32,6 +32,7 @@ html,body {
 .wrld_Icon{
   width: 85px;
   height: 75px;
+  float: left;
 }
 
 .arrow_Icon{
