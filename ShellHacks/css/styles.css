@@ -1,23 +1,77 @@
-#title{
+#title {
   background-color: #005FB8;
   color: #fff;
 }
 
+#bottom-container{
+  background-color: white;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+.top-row {
+  padding: 1rem 25% 1rem;
+}
+
+
+/*Step 1 Image*/
+.stepOne-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrld_Icon{
+  width: 85px;
+  height: 75px;
+}
+
+.arrow_Icon{
+  width: 65px;
+  height: 75px;
+  float: right;
+  display: inline-block;
+}
+
+.accordionArrow{
+  width: 25px;
+  height: 35px;
+}
+
+.htext {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
+
 /* Navigation Bar */
-.navbar{
+.navbar {
   padding: 0 0 1rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 10px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-light";
+}
+
+.accordion {
+  margin: 1rem 1rem 1rem;
 }
