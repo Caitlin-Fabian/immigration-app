@@ -1,0 +1,36 @@
+h1{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    background-color: #005FB8;
+    color: #FFFFFF;
+    height: 70px;
+    padding: 10px;  
+}
+
+.questions{
+    margin: 10px;
+    font-size: 30px;
+}
+.answers{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.button-style{
+    background-color:#005FB8;
+    width:100px;
+    height:50px;
+    border-radius:50px;
+    background:#005FB8;
+    border:none;
+    outline:none;
+    float:right;
+    margin: 10px;
+    font-size:20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+  }
+
+.button-style a{
+    color: white;
+    text-decoration: none;
+}
