@@ -3,6 +3,57 @@
   color: #fff;
 }
 
+#bottom-container{
+  background-color: white;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+.top-row {
+  padding: 1rem 25% 1rem;
+}
+
+
+/*Step 1 Image*/
+.stepOne-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrld_Icon{
+  width: 85px;
+  height: 75px;
+  float: left;
+}
+
+.arrow_Icon{
+  width: 65px;
+  height: 75px;
+  float: right;
+  display: inline-block;
+}
+
+.accordionArrow{
+  width: 25px;
+  height: 35px;
+}
+
+.htext {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
+
 /* Navigation Bar */
 .navbar {
   padding: 0 0 1rem;
@@ -63,4 +114,8 @@
   position: fixed;
   margin-left: 76%;
   margin-top: 5%;
+}
+
+.accordion {
+  margin: 1rem 1rem 1rem;
 }
