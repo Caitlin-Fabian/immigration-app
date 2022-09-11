@@ -60,7 +60,7 @@ html,body {
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
+  font-family: "Montserrat";
   font-size: 2.5rem;
 }
 
@@ -70,7 +70,50 @@ html,body {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-light";
+  font-family: "Montserrat";
+}
+
+
+.square-box {
+  max-width: 600px;
+  min-height: 600px;
+  border: 1px #333;
+}
+
+.S1 {
+  position: fixed;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.S2 {
+  position: fixed;
+  margin-left: 20%;
+  margin-top: 25%;
+}
+.S3 {
+  position: fixed;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.S4 {
+  position: fixed;
+  margin-left: 43%;
+  margin-top: 25%;
+}
+.S5 {
+  position: fixed;
+  margin-left: 55%;
+  margin-top: 5%;
+}
+.S6 {
+  position: fixed;
+  margin-left: 65%;
+  margin-top: 25%;
+}
+.S7 {
+  position: fixed;
+  margin-left: 76%;
+  margin-top: 5%;
 }
 
 .accordion {
