@@ -65,12 +65,12 @@ html, body {
 .wrld_Icon {
   width: 85px;
   height: 75px;
-  float: left;
 }
 
 .home_Icon {
   width: 70px;
   height: 70px;
+  float: left;
 }
 
 .arrow_Icon {
@@ -108,119 +108,9 @@ html, body {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat";
+  font-family: "Montserrat-light";
 }
-
-
-.square-box {
-  max-width: 600px;
-  min-height: 600px;
-  border: 1px #333;
-}
-
-.S1 {
-  position: fixed;
-  margin-left: 20%;
-  margin-top: 8%;
-  z-index: 2;
-}
-
-.S2 {
-  position: fixed;
-  margin-left: 33%;
-  margin-top: 24%;
-  z-index: 2;
-}
-
-.S3 {
-  position: fixed;
-  margin-left: 47%;
-  margin-top: 8%;
-  z-index: 2;
-}
-
-.S4 {
-  position: fixed;
-  margin-left: 60%;
-  margin-top: 24%;
-  z-index: 2;
-}
-
-.S5 {
-  position: fixed;
-  margin-left: 73%;
-  margin-top: 8%;
-  z-index: 2;
-}
-
-
-
-.L1 {
-  position: fixed;
-  margin-left: 18%;
-  margin-top: 11%;
-}
-
-.L2 {
-  position: fixed;
-  margin-left: 31%;
-  margin-top: 12%;
-}
-
-/* Hello */
-.L3 {
-  position: fixed;
-  margin-left: 45%;
-  margin-top: 12%;
-}
-
-.L4 {
-  position: fixed;
-  margin-left: 59%;
-  margin-top: 12%;
-}
-
-.L5 {
-  position: fixed;
-  margin-left: 52%;
-  margin-top: 15%;
-}
-
-.L6 {
-  position: fixed;
-  margin-left: 65%;
-  margin-top: 15%;
-}
-
-.exclamation-mark{
-  position:fixed;
-  margin-left: 28%;
-  margin-top: 15%;
-  z-index:5;
-}
-
-
-
 
 .accordion {
   margin: 1rem 1rem 1rem;
-}
-
-.fingerprint-Icon {
-  width: 70px;
-  height: 80px;
-}
-
-.biometric-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: "Ubuntu";
-  font-size: 30px;
-}
-
-.bio-icons {
-  width: 40px;
-  height: 40px;
-  margin-left: 50px;
 }

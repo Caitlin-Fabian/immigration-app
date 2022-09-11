@@ -124,25 +124,23 @@
         </div>
       </div>
 
-      <section id="bottom-container">
-        <div class="container-fluid">
-          <img class="wrld_Icon" src="Images/World_Icon.png" alt="">
-          <script language="javascript">
-            var popupWindow = null;
-            function centeredPopup(url, winName, w, h, scroll) {
-              LeftPosition = (screen.width) ? (screen.width - w) / 2 : 0;
-              TopPosition = (screen.height) ? (screen.height - h) / 2 : 0;
-              settings =
-                'height=' + h + ',width=' + w + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=' + scroll + ',resizable'
-              popupWindow = window.open(url, winName, settings)
-            }
-
-          </script>
-          <p><a href="main3.html" onclick="centeredPopup(this.href,'myWindow','900','500','yes');return false"><img
-                class="arrow_Icon" src="Images/Arrow.png" alt=""></a></p>
-        </div>
-      </section>
+    <section id="bottom-container">
+    <div class="container-fluid">
+      <img class="wrld_Icon" src="Images/World_Icon.png" alt="">
+      <script language="javascript">
+        var popupWindow = null;
+        function centeredPopup(url,winName,w,h,scroll){
+        LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+        TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+        settings =
+        'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+        popupWindow = window.open(url,winName,settings)
+        }
+        </script>
+        <p><a href="main3.html"><img class="arrow_Icon" src="Images/Arrow.png" alt=""></a></p>
     </div>
+    </section>
+</div>
 </body>
 
 </html>
