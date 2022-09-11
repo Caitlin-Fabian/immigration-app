@@ -96,7 +96,12 @@
             <input type="text" placeholder="Enter Username" name="username" required>  
             <br><center><b><label>PASSWORD: </label></b></center>
             <input type="password" placeholder="Enter Password" name="password" required><br>
-            <button type="submit"><b>SUBMIT</b></button><br>
+            <button type="reset" onclick="myFunction();"><b>SUBMIT</b></button><br>
+            <script >
+                function myFunction() {
+                    window.location.href= 'main.html';
+                }
+            </script>
             <center>Back to <a href="signup.html">sign up</a> page</center><br>
         </div>   
     </form>
