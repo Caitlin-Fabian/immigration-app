@@ -159,3 +159,20 @@ html,body {
 .accordion {
   margin: 1rem 1rem 1rem;
 }
+.fingerprint-Icon{
+  width: 70px;
+  height: 80px;
+}
+.biometric-page{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Ubuntu";
+  font-size: 30px;
+}
+
+.bio-icons{
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+}
