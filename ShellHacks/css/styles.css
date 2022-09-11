@@ -153,6 +153,13 @@ html,body {
   margin-top: 15%;
 }
 
+.exclamation-mark{
+  position:fixed;
+  margin-left: 28%;
+  margin-top: 15%;
+  z-index:5;
+}
+
 
 
 

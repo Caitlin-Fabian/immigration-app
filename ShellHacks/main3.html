@@ -55,9 +55,9 @@
       </nav>
   </section>
 
-  <img class="S1" src="Images/Green_Icon.png" width="165" height="165"></a>
-  <a href="Step3_Page.html"> <img class="S2" src="Images/Yellow_Icon.png" width="165" height="165"></a>
-  <img class="S3" src="Images/Gray_Icon.png">
+  <img class="S1" src="Images/Green_Icon.png" width="165" height="165">
+  <img class="S2" src="Images/Green_Icon.png" width="165" height="165">
+  <a href=""><img class="S3" src="Images/Yellow_Icon.png" width="165" height="165"></a>
   <img class="S4" src="Images/Gray_Icon.png">
   <img class="S5" src="Images/Gray_Icon.png">
   <img class="S6" src="Images/Gray_Icon.png">
@@ -65,7 +65,17 @@
 
   <img class="L1" src="Images/updownline.png">
   <img class="L2" src="Images/downupline.png">
-  <img class="L3" src="Images/updownline.png">
+  <script language="javascript">
+    var popupWindow = null;
+    function centeredPopup(url,winName,w,h,scroll){
+    LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+    TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+    settings =
+    'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+    popupWindow = window.open(url,winName,settings)
+    }
+    </script>
+  <div><img class="L3" src="Images/updownline.png"><a href="biometrics.html" onclick="centeredPopup(this.href,'myWindow','500','300','yes');return false"><img class="exclamation-mark" src="Images/exclamation-mark.png" width="100" height="100"></a></div>
   <img class="L4" src="Images/downupline.png">
   <img class="L5" src="Images/updownline.png">
   <img class="L6" src="Images/downupline.png">
