@@ -3,17 +3,18 @@
   color: #fff;
 }
 
-#bottom-container{
+#bottom-container {
   background-color: white;
 }
 
-html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 
 .top-row {
   padding: 1rem 25% 1rem;
@@ -29,20 +30,20 @@ html,body {
   margin-right: auto;
 }
 
-.wrld_Icon{
+.wrld_Icon {
   width: 85px;
   height: 75px;
   float: left;
 }
 
-.arrow_Icon{
+.arrow_Icon {
   width: 65px;
   height: 75px;
   float: right;
   display: inline-block;
 }
 
-.accordionArrow{
+.accordionArrow {
   width: 25px;
   height: 35px;
 }
@@ -86,69 +87,82 @@ html,body {
   margin-top: 5%;
   z-index: 2;
 }
+
 .S2 {
   position: fixed;
   margin-left: 10%;
   margin-top: 25%;
   z-index: 2;
 }
+
 .S3 {
   position: fixed;
   margin-left: 23%;
   margin-top: 5%;
   z-index: 2;
 }
+
 .S4 {
   position: fixed;
   margin-left: 33%;
   margin-top: 25%;
   z-index: 2;
 }
+
 .S5 {
   position: fixed;
   margin-left: 47%;
   margin-top: 5%;
   z-index: 2;
 }
+
 .S6 {
   position: fixed;
   margin-left: 57%;
   margin-top: 25%;
   z-index: 2;
 }
+
 .S7 {
   position: fixed;
   margin-left: 71%;
   margin-top: 5%;
   z-index: 2;
 }
+
 .L1 {
-  position:fixed;
+  position: fixed;
   margin-left: 5%;
   margin-top: 15%;
 }
+
 .L2 {
-  position:fixed;
+  position: fixed;
   margin-left: 18%;
   margin-top: 15%;
 }
+
+/* Hello */
 .L3 {
-  position:fixed;
+  position: fixed;
   margin-left: 28%;
   margin-top: 15%;
 }
+
 .L4 {
-  position:fixed;
+  position: fixed;
   margin-left: 41%;
   margin-top: 15%;
 }
+
 .L5 {
-  position:fixed;
+  position: fixed;
   margin-left: 52%;
   margin-top: 15%;
 }
+
 .L6 {
-  position:fixed;
+  position: fixed;
   margin-left: 65%;
   margin-top: 15%;
 }
@@ -159,19 +173,21 @@ html,body {
 .accordion {
   margin: 1rem 1rem 1rem;
 }
-.fingerprint-Icon{
+
+.fingerprint-Icon {
   width: 70px;
   height: 80px;
 }
-.biometric-page{
-  display:flex;
+
+.biometric-page {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: "Ubuntu";
   font-size: 30px;
 }
 
-.bio-icons{
+.bio-icons {
   width: 40px;
   height: 40px;
   margin-left: 50px;
