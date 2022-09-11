@@ -224,3 +224,10 @@ html, body {
   height: 40px;
   margin-left: 50px;
 }
+
+.alert {
+  position:fixed;
+  margin-left: 59%;
+  margin-top: 13%;
+  z-index:5;
+}
