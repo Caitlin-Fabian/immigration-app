@@ -120,76 +120,64 @@ html, body {
 
 .S1 {
   position: fixed;
-  margin-left: 0%;
-  margin-top: 5%;
+  margin-left: 20%;
+  margin-top: 8%;
   z-index: 2;
 }
 
 .S2 {
   position: fixed;
-  margin-left: 10%;
-  margin-top: 25%;
+  margin-left: 33%;
+  margin-top: 24%;
   z-index: 2;
 }
 
 .S3 {
   position: fixed;
-  margin-left: 23%;
-  margin-top: 5%;
+  margin-left: 47%;
+  margin-top: 8%;
   z-index: 2;
 }
 
 .S4 {
   position: fixed;
-  margin-left: 33%;
-  margin-top: 25%;
+  margin-left: 60%;
+  margin-top: 24%;
   z-index: 2;
 }
 
 .S5 {
   position: fixed;
-  margin-left: 47%;
-  margin-top: 5%;
+  margin-left: 73%;
+  margin-top: 8%;
   z-index: 2;
 }
 
-.S6 {
-  position: fixed;
-  margin-left: 57%;
-  margin-top: 25%;
-  z-index: 2;
-}
 
-.S7 {
-  position: fixed;
-  margin-left: 71%;
-  margin-top: 5%;
-  z-index: 2;
-}
 
 .L1 {
   position: fixed;
-  margin-left: 5%;
-  margin-top: 15%;
+  margin-left: 18%;
+  margin-top: 11%;
 }
 
 .L2 {
   position: fixed;
-  margin-left: 18%;
-  margin-top: 15%;
+  margin-left: 31%;
+  margin-top: 12%;
 }
 
 /* Hello */
 .L3 {
   position: fixed;
-  margin-left: 28%;
-  margin-top: 15%;
+  margin-left: 45%;
+  margin-top: 12%;
 }
 
 .L4 {
   position: fixed;
-  margin-left: 41%;
-  margin-top: 15%;
+  margin-left: 59%;
+  margin-top: 12%;
 }
 
 .L5 {
