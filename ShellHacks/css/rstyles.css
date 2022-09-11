@@ -1,0 +1,116 @@
+#title {
+  background-color: #005FB8;
+  color: #fff;
+}
+
+#Forum_Title {
+  height: 45px;
+}
+
+#bottom-container {
+  background-color: white;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.top-row {
+  padding: 1rem 25% 1rem;
+}
+
+.earth {
+  height: 40px;
+  width: 40px;
+}
+
+.type_box {
+  width: 95%;
+  display: inline-block;
+}
+
+.chatbtn {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+}
+
+.heartbtn {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.users{
+  width: 32px;
+  width: 36px;
+  margin: 8px;
+}
+
+/*Step 1 Image*/
+.stepOne-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrld_Icon {
+  width: 85px;
+  height: 75px;
+}
+
+.home_Icon {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+.arrow_Icon {
+  width: 65px;
+  height: 75px;
+  float: right;
+  display: inline-block;
+}
+
+.accordionArrow {
+  width: 25px;
+  height: 35px;
+}
+
+.htext {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 15px 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.accordion {
+  margin: 1rem 1rem 1rem;
+}
