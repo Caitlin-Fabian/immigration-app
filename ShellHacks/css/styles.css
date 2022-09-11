@@ -194,7 +194,7 @@ html, body {
 
 .exclamation-mark{
   position:fixed;
-  margin-left: 43%;
+  margin-left: 39%;
   margin-top: 15%;
   z-index:5;
 }
@@ -227,7 +227,8 @@ html, body {
 
 .alert {
   position:fixed;
-  margin-left: 59%;
+  margin-left: 57%;
   margin-top: 13%;
   z-index:5;
 }
+
