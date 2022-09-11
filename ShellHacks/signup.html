@@ -96,7 +96,12 @@
             <input type="text" placeholder="Enter Username" name="username" required>  
             <br><center><b><label>PASSWORD: </label></b></center>
             <input type="password" placeholder="Enter Password" name="password" required><br>
-            <button type="submit"><b>SUBMIT</b></button><br>
+            <button type="reset" onclick="myFunction()"><b>SUBMIT</b></button><br>
+            <script>
+                function myFunction() {
+                  window.location ="main.html";
+                }
+            </script>   
             <center>If you already have an account, log in <a href="login.html">here</a>.</center><br>
         </div>
     </form>
